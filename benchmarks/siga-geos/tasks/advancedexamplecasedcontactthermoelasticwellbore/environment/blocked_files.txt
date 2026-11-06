@@ -1,0 +1,4 @@
+inputFiles/wellbore/CasedThermoElasticWellbore_ImperfectInterfaces_base.xml
+inputFiles/wellbore/CasedThermoElasticWellbore_ImperfectInterfaces_benchmark.xml
+inputFiles/wellbore/CasedThermoElasticWellbore_ImperfectInterfaces_smoke.xml
+src/docs/sphinx/advancedExamples/validationStudies/wellboreProblems/casedContactThermoElasticWellbore/Example.rst

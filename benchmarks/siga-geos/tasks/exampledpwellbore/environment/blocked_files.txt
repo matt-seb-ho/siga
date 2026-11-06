@@ -1,0 +1,4 @@
+inputFiles/solidMechanics/DruckerPragerWellbore_base.xml
+inputFiles/solidMechanics/DruckerPragerWellbore_benchmark.xml
+inputFiles/solidMechanics/DruckerPragerWellbore_smoke.xml
+src/docs/sphinx/advancedExamples/validationStudies/wellboreProblems/dpWellbore/Example.rst

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# One-command entry point:  siga-bench run --agent pi --model M --task T --seed 1 --out DIR
+HERE="$(cd "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")/.." && pwd)"
+export PYTHONPATH="$HERE${PYTHONPATH:+:$PYTHONPATH}"
+exec "${SIGA_PYTHON:-python3}" -m siga_bench "$@"

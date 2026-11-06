@@ -1,0 +1,6 @@
+# The benchmark runner (benchmarks/siga-geos) and the scorers (src/eval) use the Python
+# standard library only. The SIGA MCP servers declare their own dependencies inline
+# (PEP 723) and are started with `uv run --script`. Tests: `pip install pytest && pytest`.
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"

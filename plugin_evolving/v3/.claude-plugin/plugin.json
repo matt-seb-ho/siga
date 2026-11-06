@@ -1,0 +1,12 @@
+{
+  "name": "siga-se-v3",
+  "version": "3.0.0",
+  "description": "SIGA SE: the self-evolved GEOS adapter (round 3). PRIMER.md, memory/cheatsheet.md, skills/ and agents/ were written by the agent from prior trajectories; hooks/ and scripts/ are SIGA's S and X unchanged.",
+  "mcpServers": {
+    "xmllint": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "--script", "${CLAUDE_PLUGIN_ROOT}/scripts/xmllint_mcp.py"]
+    }
+  }
+}

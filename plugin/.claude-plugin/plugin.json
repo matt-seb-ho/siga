@@ -1,0 +1,33 @@
+{
+  "name": "siga",
+  "version": "1.0.0",
+  "description": "SIGA: simulator-interface grounding adapter for GEOS XML authoring. R = geos-rag MCP (scripts/geos_rag_mcp.py), X = xmllint MCP (scripts/xmllint_mcp.py), S = validation Stop hook (hooks/hooks.json). M (memory_primer_dsv4_m1u.md) and the primer are system-prompt text; benchmarks/siga-geos/siga_bench/cells.py assembles a paper cell.",
+  "author": {
+    "name": "SIGA authors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "geos",
+    "simulation"
+  ],
+  "mcpServers": {
+    "geos-rag": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--script",
+        "${CLAUDE_PLUGIN_ROOT}/scripts/geos_rag_mcp.py"
+      ]
+    },
+    "xmllint": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--script",
+        "${CLAUDE_PLUGIN_ROOT}/scripts/xmllint_mcp.py"
+      ]
+    }
+  }
+}

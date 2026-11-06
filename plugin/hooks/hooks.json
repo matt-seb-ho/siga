@@ -1,0 +1,17 @@
+{
+  "description": "SIGA S: validation Stop hook. Blocks end_turn while /workspace/inputs/ has no XML, holds an unparseable XML file, or (with GEOS_HOOK_XMLLINT=1) fails xmllint --schema against the GEOS XSD, and returns the errors as repair feedback. Bounded by GEOS_HOOK_MAX_RETRIES (default 2).",
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/verify_outputs.py",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

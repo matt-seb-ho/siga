@@ -1,0 +1,37 @@
+SIGA: Simulator-Interface Grounding Adapters for Scientific Simulation Setup
+Copyright 2026 The SIGA authors (see README.md, "Citation")
+
+The code and documentation in this repository are licensed under the MIT
+License (see LICENSE), except for the third-party files listed
+below.
+
+-------------------------------------------------------------------------------
+GEOS example input decks
+
+The XML files under
+
+    benchmarks/siga-geos/tasks/*/tests/reference/
+    benchmarks/siga-geos/tasks/*/solution/inputs/
+
+are unmodified copies of example input files from the GEOS repository
+(https://github.com/GEOS-DEV/GEOS), commit
+498d8e33877a1c5539cc3f180c0991dd6189dea1. They are licensed under the GNU
+Lesser General Public License, version 2.1 (LGPL-2.1-only), not under the
+MIT License. The full license text is in LICENSES/GEOS-LGPL-2.1.txt.
+
+GEOS copyright notice (from GEOS's COPYRIGHT file):
+
+ * Copyright (c) 2016-2024 Lawrence Livermore National Security LLC
+ * Copyright (c) 2018-2024 TotalEnergies
+ * Copyright (c) 2018-2024 The Board of Trustees of the Leland Stanford Junior University
+ * Copyright (c) 2023-2024 Chevron
+ * Copyright (c) 2019-     GEOS/GEOSX Contributors
+ * All rights reserved
+
+GEOS is LLNL-CODE-812638. GEOS's NOTICE file (the Lawrence Livermore National
+Laboratory, Stanford University and TotalEnergies notices) and COPYRIGHT file
+are reproduced verbatim, from the same commit, in LICENSES/GEOS-NOTICE.txt and
+LICENSES/GEOS-COPYRIGHT.txt.
+
+This repository does not include the GEOS source tree. The benchmark builds a
+filtered copy from a GEOS checkout that the user supplies.

@@ -1,0 +1,4 @@
+inputFiles/hydraulicFracturing/kgdValidation_base.xml
+inputFiles/hydraulicFracturing/kgdValidation_benchmark.xml
+inputFiles/hydraulicFracturing/kgdValidation_smoke.xml
+src/docs/sphinx/advancedExamples/validationStudies/hydraulicFracture/kgdValidation/Example.rst

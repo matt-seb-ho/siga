@@ -1,0 +1,4 @@
+inputFiles/triaxialDriver/triaxialDriver_ExtendedDruckerPrager.xml
+inputFiles/triaxialDriver/triaxialDriver_ExtendedDruckerPrager_basicExample.xml
+inputFiles/triaxialDriver/triaxialDriver_base.xml
+src/docs/sphinx/advancedExamples/validationStudies/viscoplasticity/ExtendedDruckerPrager/Example.rst

@@ -1,0 +1,4 @@
+inputFiles/poromechanics/PoroElastic_Mandel_base.xml
+inputFiles/poromechanics/PoroElastic_Mandel_benchmark_fim.xml
+inputFiles/poromechanics/PoroElastic_Mandel_smoke_sequential.xml
+src/docs/sphinx/advancedExamples/validationStudies/poromechanics/mandel/Example.rst

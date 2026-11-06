@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+auth.json
+
+# Run outputs and local data (keep them outside the repo)
+runs/
+cells/
+rootfs/
+vector_db/
+*.jsonl
+metrics.json
+score_details.json
+reward.json
+reward.txt
+.verify_hook_events.jsonl
+.verify_retry_count

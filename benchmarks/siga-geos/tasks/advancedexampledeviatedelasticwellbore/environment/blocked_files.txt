@@ -1,0 +1,4 @@
+inputFiles/wellbore/DeviatedElasticWellbore_base.xml
+inputFiles/wellbore/DeviatedElasticWellbore_benchmark.xml
+inputFiles/wellbore/DeviatedElasticWellbore_smoke.xml
+src/docs/sphinx/advancedExamples/validationStudies/wellboreProblems/deviatedElasticWellbore/Example.rst

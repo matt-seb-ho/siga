@@ -1,0 +1,4 @@
+inputFiles/singlePhaseFlow/thermalCompressible_2d_base.xml
+inputFiles/singlePhaseFlow/thermalCompressible_2d_benchmark.xml
+inputFiles/singlePhaseFlow/thermalCompressible_2d_smoke.xml
+src/docs/sphinx/advancedExamples/validationStudies/wellboreProblems/linearThermalDiffusion/Example.rst

@@ -1,0 +1,17 @@
+{
+ "_rule": "Leak = a visible deck that reproduces the reference at TreeSim >= 0.9 on its own (resolved inside the task's filtered tree). Such a deck is blocked with its whole case family (same stem minus base/benchmark/smoke suffixes). Same-family decks below 0.9 stay visible: adapting the nearest example is the task, and they set the copy-nearest floor. Found by scoring, with TreeSim, the candidate decks that `siga-bench leakscan` ranks highest.",
+ "pknViscosityDominated": {
+  "paths": [
+   "inputFiles/hydraulicFracturing/pknViscosityDominated_poroelastic_base.xml",
+   "inputFiles/hydraulicFracturing/pknViscosityDominated_poroelastic_benchmark.xml",
+   "inputFiles/hydraulicFracturing/pknViscosityDominated_poroelastic_smoke.xml"
+  ],
+  "why": "pknViscosityDominated_poroelastic_benchmark.xml scores TreeSim 0.941 vs the reference in the filtered tree (smoke 0.752, base 0.582); the poroelastic variant differs from the reference deck only by the coupling block."
+ },
+ "AdvancedExampleExtendedDruckerPrager": {
+  "paths": [
+   "inputFiles/triaxialDriver/triaxialDriver_ExtendedDruckerPrager_basicExample.xml"
+  ],
+  "why": "the reference deck with its base file inlined (scorer audit finding D); visible to the other triaxial tasks as an ordinary sibling example"
+ }
+}

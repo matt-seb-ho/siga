@@ -1,0 +1,4 @@
+inputFiles/proppant/ProppantSlotTest_base.xml
+inputFiles/proppant/ProppantSlotTest_benchmark.xml
+inputFiles/proppant/ProppantSlotTest_smoke.xml
+src/docs/sphinx/advancedExamples/validationStudies/hydraulicFracture/proppantSlotTest/Example.rst

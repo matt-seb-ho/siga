@@ -1,0 +1,7 @@
+inputFiles/poromechanics/PoroDruckerPragerWellbore_base.xml
+inputFiles/poromechanics/PoroDruckerPragerWellbore_benchmark.xml
+inputFiles/poromechanics/PoroDruckerPragerWellbore_smoke.xml
+inputFiles/poromechanics/PoroElasticWellbore_base.xml
+inputFiles/poromechanics/PoroElasticWellbore_benchmark.xml
+inputFiles/poromechanics/PoroElasticWellbore_smoke.xml
+src/docs/sphinx/advancedExamples/validationStudies/wellboreProblems/verticalPoroElastoPlasticWellbore/Example.rst

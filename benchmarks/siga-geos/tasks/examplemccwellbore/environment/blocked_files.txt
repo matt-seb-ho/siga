@@ -1,0 +1,4 @@
+inputFiles/solidMechanics/ModifiedCamClayWellbore_base.xml
+inputFiles/solidMechanics/ModifiedCamClayWellbore_benchmark.xml
+inputFiles/solidMechanics/ModifiedCamClayWellbore_smoke.xml
+src/docs/sphinx/advancedExamples/validationStudies/wellboreProblems/mccWellbore/Example.rst

@@ -1,0 +1,4 @@
+inputFiles/hydraulicFracturing/heterogeneousInSitu_base.xml
+inputFiles/hydraulicFracturing/heterogeneousInSitu_benchmark.xml
+inputFiles/hydraulicFracturing/heterogeneousInSitu_smoke.xml
+src/docs/sphinx/basicExamples/hydraulicFracturing/Example.rst

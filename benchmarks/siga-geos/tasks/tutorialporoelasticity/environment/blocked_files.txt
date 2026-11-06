@@ -1,0 +1,5 @@
+inputFiles/poromechanics/PoroElastic_Terzaghi_base_direct.xml
+inputFiles/poromechanics/PoroElastic_Terzaghi_base_iterative.xml
+inputFiles/poromechanics/PoroElastic_Terzaghi_benchmark.xml
+inputFiles/poromechanics/PoroElastic_Terzaghi_smoke.xml
+src/docs/sphinx/basicExamples/poromechanics/Example.rst

@@ -1,0 +1,4 @@
+inputFiles/wellbore/ThermoPoroElasticWellbore_base.xml
+inputFiles/wellbore/ThermoPoroElasticWellbore_benchmark.xml
+inputFiles/wellbore/ThermoPoroElasticWellbore_smoke.xml
+src/docs/sphinx/advancedExamples/validationStudies/wellboreProblems/thermoPoroElasticWellbore/Example.rst

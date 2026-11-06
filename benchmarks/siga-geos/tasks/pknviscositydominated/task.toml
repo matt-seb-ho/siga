@@ -1,0 +1,46 @@
+schema_version = "1.4"
+artifacts = ["/workspace/inputs"]
+
+[task]
+name = "siga-geos/pknviscositydominated"
+description = "Write the GEOS XML input deck for 'pknViscosityDominated' from a natural-language specification."
+authors = [{ name = "SIGA authors (UCSD)" }]
+keywords = ["geos", "simulation-setup", "xml", "geomechanics", "earth-sciences"]
+
+[metadata]
+siga_task = "pknViscosityDominated"
+split = "val"
+domain = "earth-sciences"
+field = "geomechanics"
+subfield = "simulator input preparation"
+difficulty = "medium"
+category = "scientific-software"
+tags = ["geos", "xml", "input-deck"]
+metric = "TreeSim in [0,1] vs the reference deck; failures (no/unparseable XML) score 0; scorer = paper (default) or fixed (SIGA_SCORER)"
+spec_set = "v2"
+geos_commit = "498d8e33877a1c5539cc3f180c0991dd6189dea1"
+reference_sha256 = "7daa4f200fa3d6a7"
+exporter_version = "2"
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+network_mode = "no-network"
+
+[agent]
+timeout_sec = 1800.0
+
+[environment]
+build_timeout_sec = 1800.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 10240
+gpus = 0
+workdir = "/workspace"
+# UNTESTED UNDER HARBOR (see benchmarks/siga-geos/README.md, "Harbor format").
+# The agent may reach only its own model API. Replace the placeholder below with your agent's
+# API host(s) and nothing else, and disable the agent's web tools and any server-side web search
+# in the agent's own configuration (Harbor has no gate that strips them). Never use "public":
+# GitHub hosts every reference deck. The placeholder resolves nowhere, so an unedited task fails closed.
+network_mode = "allowlist"
+allowed_hosts = ["set-your-model-api-host.invalid"]
